@@ -1,0 +1,14 @@
+{
+  "srcDir": "src",
+  "srcFiles": [],
+  "specDir": "src",
+  "specFiles": [
+  "/**/*.spec.ts"
+  ],
+  "env": {
+    "stopSpecOnExpectationFailure": false,
+    "stopOnSpecFailure": false,
+    "random": false
+  },
+  "browser": "headlessChrome"
+}
