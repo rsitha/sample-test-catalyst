@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "sample-test"
+  "defaultProject": "sample-test",
+  "cli": {
+    "analytics": false
+  }
 }
