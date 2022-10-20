@@ -5,10 +5,15 @@
     "outDir": "./out-tsc/spec",
     "types": [
       "jasmine"
-    ]
+    ],
+    "paths": {
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ]
+    }
   },
   "files": [
-    "src/test.ts",
+    "src/app/app-catalyst.component.spec.ts",
     "src/polyfills.ts"
   ],
   "include": [
